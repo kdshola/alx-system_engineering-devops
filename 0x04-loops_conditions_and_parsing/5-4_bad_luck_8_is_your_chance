@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# Displays "Best school" 10 times:
+#	"bad luck" in iteration 4 and "good luck" in iteration 8
+
+n=0
+while [ "$n" -lt 10 ]
+do
+	if [ "$n" = 3 ]
+	then
+		echo "bad luck"
+	elif [ "$n" = 7 ]
+	then
+		echo "good luck"
+	else
+		echo "Best School"
+	fi
+	n="$(( n + 1 ))"
+done

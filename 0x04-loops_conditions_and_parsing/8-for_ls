@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Displays current directory in list fromat without starting integer- (eg. 1-)
+
+for file in *
+do
+	echo "$file" | cut -d '-' -f 2
+done
