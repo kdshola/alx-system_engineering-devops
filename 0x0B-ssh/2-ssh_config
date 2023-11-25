@@ -1,0 +1,8 @@
+# ssh config
+
+Host *
+	PasswordAuthentication no
+	IdentityFile ~/.ssh/school
+	HashKnownHosts yes
+	Hostname 100.25.142.160
+	User ubuntu
