@@ -2,7 +2,6 @@
 # Configures your Nginx server with custom 404 error page.
 
 sudo apt-get -y update
-sudo apt-get -y upgrade
 sudo apt-get -y install nginx
 sudo ufw allow 'Nginx HTTP'
 echo "Ceci n'est pas une page" | sudo tee /var/www/html/m_404.html > /dev/null
